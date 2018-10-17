@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-nav-bar": "/miniprogram_npm/vant-weapp/nav-bar/index",
+    "my-component": "/document/table/table"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "custom-component": "/pages/child/property/index"
+  }
+}

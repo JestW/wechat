@@ -1,0 +1,5 @@
+<!--pages/parent/demo1/index.wxml-->
+<!-- <text>pages/parent/demo1/index.wxml</text> -->
+<my-component>
+  <view>这里是父组件</view>
+</my-component>

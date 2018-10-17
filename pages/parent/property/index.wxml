@@ -1,0 +1,3 @@
+<!--pages/parent/property/index.wxml-->
+<text>pages/parent/property/index.wxml</text>
+<custom-component bindmyevent="onMyEvent"></custom-component>

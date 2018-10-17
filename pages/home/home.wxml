@@ -1,0 +1,53 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class='container'>
+  <image style="width:100%; height:100px; background-color: #eee;" src="{{src}}"></image>
+  <van-tabbar class="tabbar-classify" active="{{ active }}" fixed="{{ false }}" bind:change="onChange">
+    <van-tabbar-item icon="shop">工艺信息</van-tabbar-item>
+    <van-tabbar-item icon="chat">生产预警</van-tabbar-item>
+    <van-tabbar-item icon="records">品种开台</van-tabbar-item>
+    <van-tabbar-item icon="gold-coin">品种了机</van-tabbar-item>
+  </van-tabbar>
+  <van-row class="layout-three-special">
+    <van-col custom-class="layout-three-special-big-item" bindtap="toEmployee" span="8">人员</van-col>
+    <van-col custom-class="layout-three-two-special" span="16">
+      <van-row class="layout-three-two">
+        <van-col custom-class="layout-three-two-item layout-three-two-item-border layout-three-two-border" span="12">人员考勤</van-col>
+        <van-col custom-class="layout-three-two-item layout-three-two-border" span="12">人员替岗</van-col>
+      </van-row>
+      <van-row>
+        <van-col custom-class="layout-three-two-item layout-three-two-item-border" span="12">产量报工</van-col>
+        <van-col custom-class="layout-three-two-item" span="12">看台分配</van-col>
+      </van-row>
+    </van-col>
+  </van-row>
+  <van-row class="layout-three layout-three-machine">
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">机器</van-col>
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">设备保养</van-col>
+    <van-col custom-class="layout-three-item" span="8">设备维修</van-col>
+  </van-row>
+  <van-row class="layout-three layout-three-material">
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">物料</van-col>
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">配棉品种</van-col>
+    <van-col custom-class="layout-three-item" span="8">配件更换</van-col>
+  </van-row>
+  <van-row class="layout-three layout-three-energy">
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">能源</van-col>
+    <van-col custom-class="layout-three-item layout-three-item-border" span="8">温湿度状态</van-col>
+    <van-col custom-class="layout-three-item" span="8">设备电量</van-col>
+  </van-row>
+  <van-panel class="panel-detection" title="检测">
+    <view>
+       <van-row class="panel-layout-detection">
+          <van-col custom-class="panel-layout-detection-item panel-layout-detection-border" span="12"><van-icon custom-class="panel-layout-detection-icon" name="more-o" />在制品检验</van-col>
+          <van-col custom-class="panel-layout-detection" span="12"><van-icon custom-class="panel-layout-detection-icon" name="discount" />成品检验</van-col>
+        </van-row>
+    </view>
+  </van-panel>
+  <van-tabbar class="tabbar-classify" active="{{ fixedActive }}" fixed="{{ true }}" bind:change="onChange">
+    <van-tabbar-item icon="home">首页</van-tabbar-item>
+    <van-tabbar-item icon="chat">运转</van-tabbar-item>
+    <van-tabbar-item icon="records">报表</van-tabbar-item>
+    <van-tabbar-item icon="gold-coin">设置</van-tabbar-item>
+  </van-tabbar>
+</view>

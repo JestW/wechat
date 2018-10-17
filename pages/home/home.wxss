@@ -1,0 +1,82 @@
+/* pages/home/home.wxss */
+.tabbar-classify{
+  width: 100%;
+  margin: 10px 0;
+  border: none;
+}
+
+/* 人员-报工的layout布局 */
+.layout-three-special{
+  width:100%;
+  text-align: center;
+  height: 100px;
+  font-size: 16px;
+  background-color: #07c8d6;
+}
+.layout-three-special-big-item{
+  display: flex;
+  align-items: center;
+  color:aliceblue;
+  justify-content: center;
+  height: 100px;
+  border-right: 1px solid #fff;
+}
+.layout-three-two{
+  width:100%;
+}
+.layout-three-two-border{
+  border-bottom: 1px solid #fff;
+}
+.layout-three-two-item{
+  height:50px;
+  line-height: 50px;
+  color: aliceblue;
+}
+.layout-three-two-item-border{
+  border-right: 1px solid #fff;
+}
+/* 平均分布的三分的布局 */
+.layout-three{
+  width:100%;
+  font-size: 16px;
+  text-align: center;
+  background-color: #07c8d6;
+}
+.layout-three-item{
+  line-height: 50px;
+  height: 50px;
+  color:aliceblue;
+  border-top: 1px solid #fff;
+}
+.layout-three-item-border{
+border-right: 1px solid #fff;
+}
+.layout-three-machine{
+  background-color: #f26953;
+}
+.layout-three-material{
+ background-color: #f2b057;
+}
+.layout-three-energy{
+ background-color: #915fe0;
+}
+/* 人员检测 */
+.panel-detection{
+  width: 100%;
+  /* vertical-align: middle; */
+}
+.panel-layout-detection{
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: center;
+}
+.panel-layout-detection-border{
+  border-right: 1px solid #ccc;
+}
+.panel-layout-detection-icon{
+  /* line-height: 50px; */
+  vertical-align: middle;
+  margin-right: 5px;
+}

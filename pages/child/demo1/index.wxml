@@ -1,0 +1,5 @@
+<view>
+    <view>这里是子组件的内容</view>
+    <slot></slot>
+</view>
+<!-- // 传递一个slot， 或者直接引入的时候，JSON文件中 component与usingComponent都是必不可少的 -->

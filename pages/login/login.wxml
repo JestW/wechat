@@ -1,0 +1,31 @@
+<!--pages/login/login.wxml-->
+<!-- <text>pages/login/login.wxml</text> -->
+<view class='container'>
+ <view class='login-block'>
+  <van-cell-group> 
+    <van-field
+      value="{{ corpCode }}"
+      required
+      label="公司码"
+      placeholder="请输入公司码"
+    />
+    <van-field
+      value="{{ username }}"
+      required
+      bind:change="onChange"
+      label="用户名"
+      placeholder="请输入用户名"
+    />
+    <van-field
+      value="{{ password }}"
+      type="password"
+      label="密码"
+      placeholder="请输入密码"
+      required
+      border="{{ false }}"
+    />
+  </van-cell-group>
+  
+  <van-button custom-class="login-button" type="primary" size="large" bind:click="onLogin">登陆</van-button>
+</view>
+</view>

@@ -1,0 +1,5 @@
+<!--pages/child/bcomponents-li/index.wxml-->
+<text>pages/child/bcomponents-li/index.wxml</text>
+<view>
+  <view> 这里是view的li</view>
+</view>

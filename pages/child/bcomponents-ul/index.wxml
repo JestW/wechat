@@ -1,0 +1,5 @@
+<!--pages/child/bcomponents-ul/index.wxml-->
+<text>pages/child/bcomponents-ul/index.wxml</text>
+<view>
+    <view>  这里是view的ul </view>
+</view>

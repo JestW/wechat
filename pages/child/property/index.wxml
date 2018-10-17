@@ -1,0 +1,9 @@
+<!--pages/child/property/index.wxml-->
+<text>pages/child/property/index.wxml</text>
+<view>
+  <view>这是个什么组件</view>
+  <view>{{ myProperty }}</view>
+  <button bindtap='onMyButtonTap'>Button</button>
+  <view>{{A[0].B}}</view>
+  <button bindtap='_myPrivateMethod'>_myPrivateMethod</button>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/employee/employee.wxml-->
+<!-- <text>pages/employee/employee.wxml</text> -->
+<!-- <view>
+  <van-nav-bar
+    title="人员信息"
+    left-text="返回"
+    right-text="按钮"
+    left-arrow
+    bind:click-left="onClickLeft"
+    bind:click-right="onClickRight"
+  />
+</view> -->
+<view>
+  <my-component>
+    <!-- 这部分内容将被放置在组件 <slot> 的位置上 -->
+    <view slot="before">这里是插入到组件slot中的内容before</view>
+    <view slot="after">这里是插入到组件slot中的内容after</view>
+  </my-component>
+</view>

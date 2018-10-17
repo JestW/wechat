@@ -1,0 +1,42 @@
+<!--document/table/table.wxml-->
+<!-- <text>document/table/table.wxml</text> -->
+<!-- <view>
+  <van-nav-bar
+    title="人员信息"
+    left-text="返回"
+    right-text="按钮"
+    left-arrow
+    bind:click-left="onClickLeft"
+    bind:click-right="onClickRight"
+  />
+  <view class="table">
+    <block wx:for="{{listData}}" wx:key="{{code}}">
+      <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+        <view class="td">{{item.type}}</view>
+      </view>
+      <view class="tr" wx:else>
+        <view class="td">{{item.code}}</view>
+        <view class="td">{{item.text}}</view>
+        <view class="td">{{item.type}}</view>
+      </view>
+    </block>
+  </view>
+</view> -->
+
+<!-- <view hidden="{{response.length < 1}}">
+  <view class="weui-loadmore" hidden="{{is_loadmore}}">
+    <view class="weui-loading"></view>
+    <view class="weui-loadmore__tips">正在加载</view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line" hidden="{{!is_loadmore}}">
+    <text class="weui-loadmore__tips">{{tip}}</text>
+  </view>
+</view> -->
+<view class="wrapper">
+  <view>这里是组件的内部节点</view>
+  <van-button type="default">默认按钮</van-button>
+  <slot name="before"></slot>
+  <slot name="after"></slot>
+</view>

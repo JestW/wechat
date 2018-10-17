@@ -1,0 +1,6 @@
+<!--pages/parent/behaviors/index.wxml-->
+<!-- <text>pages/parent/behaviors/index.wxml</text> -->
+<view>
+  <my-component my-behavior-property="behavior-property" my-property="my-property">
+  </my-component>
+</view>

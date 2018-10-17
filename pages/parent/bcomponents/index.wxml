@@ -1,0 +1,8 @@
+<!--pages/parent/bcomponents/index.wxml-->
+<text>pages/parent/bcomponents/index.wxml</text>
+<custom-ul>
+  <custom-li> item 1 </custom-li>
+  <view> 123 </view>
+  <view> 456 </view>
+  <!-- <custom-li> item 2 </custom-li> -->
+</custom-ul>
